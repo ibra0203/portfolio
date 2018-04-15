@@ -31,7 +31,7 @@ texts[7] = "   -Other Things";
 texts[8] = "Learn More?(Y/N)";
 texts[9] = ">Y";
 texts[10] = "Now Loading$";
-texts[11] = "*Portofolio Loaded";
+texts[11] = "*Portfolio Loaded";
 
 
 function scrollConsole()
