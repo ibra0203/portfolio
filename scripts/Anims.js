@@ -21,17 +21,16 @@ beginTyping();
 
 
 texts[0] = ">Name()";
-texts[1] = "Mahmoud Ibrahim / (Mody)";
+texts[1] = "Mody/Mahmoud Ibrahim";
 texts[2] = ">Location()";
 texts[3] = "Ottawa, ON";
-texts[4] = ">Interests()";
+texts[4] = ">Skills()";
 texts[5] = "   -Web Development";
 texts[6] = "   -Game Development";
-texts[7] = "   -Other Things";
-texts[8] = "Learn More?(Y/N)";
-texts[9] = ">Y";
-texts[10] = "Now Loading$";
-texts[11] = "*Portfolio Loaded";
+texts[7] = "Learn More?(Y/N)";
+texts[8] = ">Y";
+texts[9] = "Now Loading$";
+texts[10] = "*Portfolio Loaded";
 
 
 function scrollConsole()
@@ -49,7 +48,6 @@ function scrollConsole()
 
 function beginTyping()
 {
-    console.log("test");
     t = t+1;
     i=0;
     

@@ -7,6 +7,7 @@ body,html{
     height: 100%;
     margin: 0;
     min-width: 600px;
+	background-color: #4E132B;
 }
 .center-text{
     text-align: center;
@@ -28,16 +29,16 @@ a{
     height: auto;
 }
 .title1{
-    color: black;
+    color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     font-size: 2rem;
-    margin: 2rem auto;
+    margin: 0 auto;
     margin-top: 0;
 }
 .title2{
     margin: 0rem auto;
-    color: black;
+    color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 1.5rem;
@@ -45,7 +46,8 @@ a{
 
 .mainText{
         margin: 0rem auto;
-        color: #93a4aa;
+       /* color: #93a4aa;*/
+	   color:white;
         font-family: 'Montserrat', sans-serif;
         font-weight: 200;
         font-size: 1.4 rem;
@@ -54,26 +56,27 @@ a{
 
 }
 .mainText>b{
-    color: #D02E46;
+    color: #e20929;
 }
 
 .bTitle{
-    color: #D02E46;
-
+    color: white;
+	font-size:1.2rem;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .proj-btn{
-    font-family: 'Montserrat', sans-serif;
-    font-size:1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size:1.4rem;
     padding: 5px;
     color: white;
     border: none;
-    background-color: #D02E46;
+    background-color: #3F222E;
     transition: 0.2s all;
 }
 
 .proj-btn:hover{
-    background-color: #fc4b65;
+    color: #d02e46;
         transition: 0.2s all linear;
 
 }
@@ -88,7 +91,7 @@ a{
     max-width: 140%;
     
     
-    background-image: linear-gradient(to top, white, white 17%, transparent 20%), linear-gradient(to right, #3F3E3A, transparent 20%, transparent 80%, #3F3E3A), linear-gradient(to bottom left, #D02E46 , #7d373f, transparent), linear-gradient(to top,transparent 20%,  #3F3E3A 20%);
+    background-image: linear-gradient(to top, #332e30, #332e30 17%, transparent 20%), linear-gradient(to right, #3F3E3A, transparent 20%, transparent 80%, #3F3E3A), linear-gradient(to bottom left, #e20929 , #7d373f, transparent), linear-gradient(to top,transparent 20%,  #3F3E3A 20%);
     
     
 }
@@ -114,9 +117,9 @@ a{
     width: auto;
     margin: auto auto;
     border-radius: 50%;
-    box-shadow: 0px 4px 3px #D02E46;
+    box-shadow: 0px 4px 3px #e20929;
     opacity: 0;
-        background-image: linear-gradient(to bottom, transparent, #D02E46, #D02E46 , transparent );
+        background-image: linear-gradient(to bottom, transparent, #e20929, #e20929 , transparent );
 }
 
 #hero-pic img{
@@ -165,7 +168,7 @@ a{
 }
 .coding > .resp
 {
-    color: #D02E46;
+    color: #e20929;
     text-shadow: none;
     font-weight: 400;
 }
@@ -206,7 +209,7 @@ a{
     left: 50%;
     background-color: rgba(124,0,125,0.1);
     border: none;
-    color:  #D02E46;
+    color:  #e20929;
     padding: 15px 25px;
     text-align: center;
     text-decoration: none;
@@ -227,7 +230,7 @@ header{
     opacity: 0;
     display: flex;
     flex-direction: row-reverse;
-    height: 5vh;
+    height: 6vh;
     width: 100vw;
     justify-content:flex-start;
     background-image: linear-gradient(to  left, #332e30, #332e30 95%, transparent );
@@ -236,11 +239,39 @@ header{
        
 }
 .grey{
-    background-color: #EEEEEE;
+    background-color: #efefef;
 }
 
+.greyred{
+	background-color: #332e2f;
+}
+.whitetext{
+	color:white;
+}
+.red{
+	background-color: #3F222E;
+
+}
+.red2{
+	background-color: #4E132B;
+}
+.red3{
+	background-color: #e20929;
+}
+.red4{
+	background-color: #d02e46;
+}
+.red3>p{
+	color:white;
+}
 .white{
     background-color: #FFFFFF;
+}
+.dark{
+	background-color: #332e30;
+}
+.dark2{
+	background-color: #3F222E
 }
 
 .orange{
@@ -263,12 +294,12 @@ header{
     padding: 5px;
     color: white;
     border: 2px solid white;
-    background-color: #F19257;
+    background-color: #e20929;
     margin-bottom: 50px;
     transition: 0.2s all;
 }
 .contact-btn:hover{
-    background-color: #ffad7a;
+    background-color: #ff4b44;
         transition: 0.2s all linear;
 
 }
@@ -286,7 +317,7 @@ header{
 }
 .flex-i:hover{
 
-        background-color: #D02E46;
+        background-color: #e20929;
 box-shadow: -2px 2px 5px #7d373f;
 
     transition: 0.5s all;
@@ -298,7 +329,7 @@ box-shadow: -2px 2px 5px #7d373f;
     height: 100%;
     margin: auto auto;
     font-family: 'Open Sans', sans-serif;
-    color:#D02E46;
+    color:white;
     font-weight: 700;
     transition: 0.5s all;
 
@@ -329,6 +360,8 @@ box-shadow: -2px 2px 5px #7d373f;
 }
 .project>.row{
     min-height: 400px;
+
+
 }
 .project>[class*="col-"]{
 min-height: 400px;
@@ -350,7 +383,7 @@ min-height: 400px;
         text-align: center;
     }
     #fullscreen-hero{
-      background-image: linear-gradient(to bottom left, #D02E46  , #7d373f 50%), linear-gradient(to top,transparent 20%,  #3F3E3A 20%);
+      background-image: linear-gradient(to bottom left, #e20929  , #7d373f 50%), linear-gradient(to top,transparent 20%,  #3F3E3A 20%);
     
         
     
