@@ -21,7 +21,7 @@ beginTyping();
 
 
 texts[0] = ">Name()";
-texts[1] = "Mody/Mahmoud Ibrahim";
+texts[1] = "Mody Ibrahim";
 texts[2] = ">Location()";
 texts[3] = "Ottawa, ON";
 texts[4] = ">Skills()";
