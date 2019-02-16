@@ -23,7 +23,7 @@ beginTyping();
 texts[0] = ">Name()";
 texts[1] = "Mody Ibrahim";
 texts[2] = ">Location()";
-texts[3] = "Ottawa, ON";
+texts[3] = "Toronto, ON";
 texts[4] = ">Skills()";
 texts[5] = "   -Web Development";
 texts[6] = "   -Game Development";
